@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.lich.ent</groupId>
-	<artifactId>mc-simple-pub-v1</artifactId>
+	<artifactId>mc-simple-sub-v1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mc-simple-pub-v1</name>
-	<description>Simple pub container project</description>
+	<name>mc-simple-sub-v1</name>
+	<description>Simple sub container project</description>
 	<url/>
 	<licenses>
 		<license/>

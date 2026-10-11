@@ -1,1 +1,1 @@
-# mc-simple-pub-v1
+# mc-simple-sub-v1
