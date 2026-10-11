@@ -1,10 +1,10 @@
-package org.lich.ent.simple.pub.v1;
+package org.lich.ent.simple;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SimplePubV1ApplicationTests {
+class SimpleMsgV1ApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,3 +1,15 @@
 spring:
     application:
         name: mc-simple-pub-v1
+    kafka:
+        bootstrap-servers: localhost:9092
+
+        consumer:
+            group-id: mc-simple-cg-v1
+            enable-auto-commit: false
+            auto-offset-reset: earliest
+            key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+            value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+        listener:
+            ack-mode: manual_immediate
